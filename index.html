@@ -7,8 +7,29 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
  </head>
  <body>
+  
+  <nav class ="navbar navbar-default"> <!-- ナビゲーションバーの設定 -->
+   <div class="container">
+    <div class ="navbar-header"> <!-- ヘッダ情報 -->
+     <a class ="navbar-brand">プロジェクト名</a>
+    </div>
+    <ul class="nav navbar-nav"> <!-- リストの配置 -->
+     <li class ="active"><a href="#">1つめ</a></li>
+     <li><a href="#2nd">2つめ</a></li>
+     <li><a href="#3rd">3つめ</a></li>
+    </ul>
+   </div>
+  </nav>
+
   <div class ="container">
-   Hello!
+   <section>
+    <h1>1つめ</h1>
+    <p>1つめの文章を書きます。</p>
+    <h1 id ="2nd">2つめ</h1>
+    <p>2つめの文章を書きます。</p>
+    <h1 id ="2nd">3つめ</h1>
+    <p>3つめの文章を書きます。</p>
+  </section>
   </div>
    
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
